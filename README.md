@@ -11,6 +11,40 @@
 
 **Note:** Please always user `meteor yarn` instead of `yarn` standalone
 
+## Structure and architecture
+
+```
+Root
+ |-client
+ |--|-head.html
+ |--|-main.js
+ |
+ |-imports // All of potential code will be here
+ |--|-api
+ |--|-lib
+ |--|-startup
+ |--|--|-both
+ |--|--|-client
+ |--|--|-server
+ |--|
+ |--|-ui // All of front-end code will be here including React, Redux, Saga 
+ |--|--|-actions
+ |--|--|-components
+ |--|--|-containers
+ |--|--|-helpers
+ |--|--|-layouts
+ |--|--|-pages
+ |--|--|-reducers
+ |--|--|-sagas
+ |--|--|-store
+ |--|--|-stylesheets
+ |--|--|-utils
+ |
+ |-server
+ |--|-main.js
+ |-public
+```
+
 ## Overview
 
 * **[Project on a page](Link)**
