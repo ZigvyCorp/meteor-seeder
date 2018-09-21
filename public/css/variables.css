@@ -1,0 +1,38 @@
+:root {
+  --zigvy-col-dark: #3e3e3e;
+  --zigvy-col-light: #a1a1a1;
+  --zigvy-col-extra-light: #ffffff;
+  --zigvy-col-grey: #6d6d6d;
+  --zigvy-col-transparent: transparent;
+  --zigvy-col-danger: #f63d00;
+  --zigvy-col-primary: #0569aa;
+  --zigvy-col-blue: #045b97;
+  --zigvy-col-extra-light-blue: #eaf2f8 /* #b0dcf8 */;
+  --zigvy-col-light-blue: #5aaee7;
+  --zigvy-col-bg-top-1-dashboard: #dcf0fd;
+  --zigvy-col-bg-top-2-dashboard: #e9f5fd;
+  --zigvy-col-bg-top-3-dashboard: #f5fafe;
+  --zigvy-col-extra-light-grey: #818181;
+  --zigvy-col-triangle: #0775bb;
+  --zigvy-col-select: #282828;
+  --zigvy-col-btn-danger: #282828;
+  --zigvy-col-btn-primary: #17a3d1;
+  --zigvy-col-btn-second: #f63d00;
+  --zigvy-col-btn-Yes: #6898be;
+  --zigvy-col-btn-No: #ec6d49;
+  --zigvy-col-dot-line: #e0e0e0;
+  --zigvy-col-border: #c5c5c5;
+  --zigvy-col-border-focus: #385d7e;
+  --zigvy-col-highlight: #f6f8fa;
+
+  --zigvy-fs-very-tiny: 8px;
+  --zigvy-fs-tiny: 9px;
+  --zigvy-fs-x-tiny: 10px;
+  --zigvy-fs-small: 11px;
+  --zigvy-fs-regular: 12px;
+  --zigvy-fs-large: 14px;
+  --zigvy-fs-x-large: 16px;
+  --zigvy-fs-xx-large: 23px;
+  --zigvy-fs-xxx-large: 30px;
+  --zigvy-fs-4xl-large: 40px;
+}

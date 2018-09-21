@@ -1,0 +1,71 @@
+{
+  "env": {
+    "es6": true,
+    "browser": true,
+    "node": true,
+    "meteor": true
+  },
+  "extends": [
+    "airbnb",
+    "plugin:meteor/recommended",
+    "plugin:jsx-a11y/recommended",
+    "plugin:react/recommended"
+  ],
+  "parser": "babel-eslint",
+  "plugins": [
+    "react",
+    "meteor",
+    "jsx-a11y"
+  ],
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "experimentalObjectRestSpread": true,
+      "globalReturn": true,
+      "jsx": true
+    }
+  },
+  "globals": {
+    "Meteor": true,
+    "Roles": true,
+    "Restivus": true,
+    "Migrations": true
+  },
+  "settings": {
+    "import/resolver": "meteor"
+  },
+  "rules": {
+    "react/jsx-filename-extension": [
+      1,
+      {
+        "extensions": [
+          ".js",
+          ".jsx"
+        ]
+      }
+    ],
+    "comma-dangle": [
+      "error",
+      "never"
+    ],
+    "import/no-absolute-path": [
+      0,
+      {
+        "commonjs": false,
+        "amd": true
+      }
+    ],
+    "react/jsx-one-expression-per-line": [
+      0
+    ],
+    "import/export": 0,
+    "object-curly-newline": [
+      0,
+      {
+        "multiline": true
+      }
+    ],
+    "no-underscore-dangle": 0
+  }
+}
